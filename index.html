@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+
+    <!-- Importamos el CSS de nuestra pagína-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Librería Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+
+    <title>
+        Moderat
+    </title>
+    <link rel="icon" href="assets/logos/latte-art.png" type="image/x-icon">
+</head>
+
+<body data-spy="scroll" data-target="#header" data-offset="96">
+
+    <!--Comienza el HEADER-->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#"><img src="assets/logos/latte-art.png">Moderat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Nuevos Lanzamientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#calzado">Calzado</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ropa
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#playeras">Playeras</a>
+                        <a class="dropdown-item" href="#sudaderas">Sudaderas</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Accesorios y bebidas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="#gorras">Gorras</a>
+                        <a class="dropdown-item" href="#mochilas">Mochilas</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul id="header2" class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#modal_inicio_sesion" data-toggle="modal"> <img src="assets/logos/usuario.png"> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="assets/logos/carrito-de-compras.png"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--TERMINA HEADER-->
+
+    <!--SECCION PRINCIPAL DE LA PAGINA-->
+    <main id="main">
+        <!--INICIA CARRUSEL NOVEDADES-->
+        <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div id="titulos">
+                <h3>Nuevos Lanzamientos</h3>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+                <li data-target="#carousel1" data-slide-to="3"></li>
+                <li data-target="#carousel1" data-slide-to="4"></li>
+                <li data-target="#carousel1" data-slide-to="5"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active slider1">
+                    <img src="assets/img/novedad1.jpg" class="d-block w-100 h-100">
+                    <div class="containerCarrusel">
+                        <a href="#" class="btn btn-lg btn-primary">Ver productos</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item slider2">
+                    <img src="assets/img/novedad2.jpg" class="d-block w-100 h-100">
+                    <div class="containerCarrusel">
+                        <a href="#" class="btn btn-lg btn-primary">Ver productos</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item slider3">
+                    <img src="assets/img/novedad3.webp" class="d-block w-100 h-100">
+                    <div class="containerCarrusel">
+                        <a href="#" class="btn btn-lg btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item slider4">
+                    <img src="assets/img/novedad4.jpg" class="d-block w-100 h-100">
+                    <div class="containerCarrusel">
+                        <a href="#" class="btn btn-lg btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item slider5">
+                    <img src="assets/img/novedad5.jpg" class="d-block w-100 h-100">
+                    <div class="containerCarrusel">
+                        <a href="#" class="btn btn-lg btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item slider6">
+                    <img src="assets/img/novedad6.jpg" class="d-block w-100 h-100">
+                    <div class="containerCarrusel">
+                        <a href="#" class="btn btn-lg btn-primary">Ver productos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--TERMINA CARRUSEL NOVEDADES-->
+        <!--INICIA SECCION CALZADO-->
+        <section id="calzado" class="mt-4 pt-4">
+            <div class="container" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>El mejor calzado</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 35rem;">
+                            <img src="assets/img/calzado1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Tony Hawk The Lakai Proto</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla 1</option>
+                                            <option>Talla 2</option>
+                                            <option>Talla 3</option>
+                                            <option>Talla 4</option>
+                                            <option>Talla 5</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,500.00</span>
+
+                                </div>
+                                <p class="card-text">Tony Hawk shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 35rem;">
+                            <img src="assets/img/calzado22.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Puma Suede</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla 1</option>
+                                            <option>Talla 2</option>
+                                            <option>Talla 3</option>
+                                            <option>Talla 4</option>
+                                            <option>Talla 5</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,690.00</span>
+
+                                </div>
+                                <p class="card-text">Puma shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 35rem;">
+                            <img src="assets/img/calzado3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Workshop 3</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla 1</option>
+                                            <option>Talla 2</option>
+                                            <option>Talla 3</option>
+                                            <option>Talla 4</option>
+                                            <option>Talla 5</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,990.00</span>
+
+                                </div>
+                                <p class="card-text">Workshop shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/calzado4.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Workshop rxz</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla 1</option>
+                                            <option>Talla 2</option>
+                                            <option>Talla 3</option>
+                                            <option>Talla 4</option>
+                                            <option>Talla 5</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$2,390.00</span>
+
+                                </div>
+                                <p class="card-text">Workshop shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/calzado5.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Globe</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-danger">No Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>Talla 1</option>
+                                            <option>Talla 2</option>
+                                            <option>Talla 3</option>
+                                            <option>Talla 4</option>
+                                            <option>Talla 5</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,090.00</span>
+
+                                </div>
+                                <p class="card-text">Globe shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary" disabled>Comprar</button>
+                                <button href="#" alt="Agregar alt= carrito" disabled><img src="assets/logos/carrito-de-compras2.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/calzado6.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike SB</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla 1</option>
+                                            <option>Talla 2</option>
+                                            <option>Talla 3</option>
+                                            <option>Talla 4</option>
+                                            <option>Talla 5</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$2,990.00</span>
+
+                                </div>
+                                <p class="card-text">Nike shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--TERMINA SECCION CALZADO-->
+
+        <!--INICIA SECCION PLAYERAS-->
+        <section id="playeras" class="mt-4 pt-4">
+            <div class="container" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>Playeras chidas</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/playera1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Playera Bart Simson</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$500.00</span>
+
+                                </div>
+                                <p class="card-text">Playera sencilla </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/playera2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Playera Astronauta</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$690.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/playera3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Plallera basica</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$290.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/playera4.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Playera bandera mexicana</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$690.00</span>
+
+                                </div>
+                                <p class="card-text">Workshop is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/playera5.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">2Pac</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-danger">No Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$890.00</span>
+
+                                </div>
+                                <p class="card-text">Globe shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary" disabled>Comprar</button>
+                                <button href="#" alt="Agregar alt= carrito" disabled><img src="assets/logos/carrito-de-compras2.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/playera6.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike SB</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$990.00</span>
+
+                                </div>
+                                <p class="card-text">Nike shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--TERMINA SECCION PLAYERAS-->
+
+        <!--INICIA SECCION SUDADERAS-->
+        <section id="sudaderas" class="mt-4 pt-4">
+            <div class="container" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>Hoodies perrones</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/sudadera1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Playera basica</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$800.00</span>
+
+                                </div>
+                                <p class="card-text">Hoodie sencilla </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/sudadera2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hoodie Naranja</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$790.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/sudadera3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hoodie Deageo</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$990.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/sudadera4.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hoodie Ola</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,090.00</span>
+
+                                </div>
+                                <p class="card-text">Workshop is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/sudadera5.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hoodie Github</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-danger">No Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$10,000.00</span>
+
+                                </div>
+                                <p class="card-text">Github is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary" disabled>Comprar</button>
+                                <button href="#" alt="Agregar alt= carrito" disabled><img src="assets/logos/carrito-de-compras2.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 43rem;">
+                            <img src="assets/img/sudadera6.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike SB Hoddie</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Talla XS</option>
+                                            <option>Talla S</option>
+                                            <option>Talla M</option>
+                                            <option>Talla G</option>
+                                            <option>Talla XG</option>
+                                        </select>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$990.00</span>
+
+                                </div>
+                                <p class="card-text">Nike shoe is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--TERMINA SECCION SUDADERAS-->
+
+        <!--INICIA SECCION  GORRAS-->
+        <section id="gorras" class="mt-4 pt-4">
+            <div class="container" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>Gorras chidas</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 33rem;">
+                            <img src="assets/img/gorrra1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gorra basica</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,000.00</span>
+
+                                </div>
+                                <p class="card-text">Gorra sencilla </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 33rem;">
+                            <img src="assets/img/gorra2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gorra Core</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$690.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 33rem;">
+                            <img src="assets/img/gorra3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gorra Core</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        >
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$990.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 37rem;">
+                            <img src="assets/img/gorra4.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gorra NY</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$200.00</span>
+
+                                </div>
+                                <p class="card-text">Workshop is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 37rem;">
+                            <img src="assets/img/gorra5.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gorra CB</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-danger">No Disponible</span>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$10,000.00</span>
+
+                                </div>
+                                <p class="card-text">Github is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary" disabled>Comprar</button>
+                                <button href="#" alt="Agregar alt= carrito" disabled><img src="assets/logos/carrito-de-compras2.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 37rem;">
+                            <img src="assets/img/gorra6.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike SB gorra</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$490.00</span>
+
+                                </div>
+                                <p class="card-text">SB is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--TERMINA SECCION GORRAS-->
+
+        <!--INICIA SECCION  MOCHILAS-->
+        <section id="mochilas" class="mt-4 pt-4">
+            <div class="container" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>Mochilas chidas</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 45rem;">
+                            <img src="assets/img/mochila1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochila basica</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,000.00</span>
+
+                                </div>
+                                <p class="card-text">Mochila sencilla </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 45rem;">
+                            <img src="assets/img/mochila2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochila skate</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$1,690.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 45rem;">
+                            <img src="assets/img/mochila3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochila Basica</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        >
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$990.00</span>
+
+                                </div>
+                                <p class="card-text">Here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 38rem;">
+                            <img src="assets/img/mochila4.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochila Blackout</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$2,000.00</span>
+
+                                </div>
+                                <p class="card-text">Workshop is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 38rem;">
+                            <img src="assets/img/mochila5.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochila checkboard </h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-danger">No Disponible</span>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1" disabled>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$10,000.00</span>
+
+                                </div>
+                                <p class="card-text">Github is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary" disabled>Comprar</button>
+                                <button href="#" alt="Agregar alt= carrito" disabled><img src="assets/logos/carrito-de-compras2.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem; height: 38rem;">
+                            <img src="assets/img/mochila6.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochila Camuflaje</h5>
+
+                                <div class="bagdes pb-3">
+                                    <div class="form-group">
+                                        <span class="badge badge-success">Disponible</span>
+                                        <span class="badge badge-info">Cantidad</span>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <label>Precio:</label>
+                                    <span class="badge badge-secondary">$790.00</span>
+
+                                </div>
+                                <p class="card-text">SB is here to bring everyday comfort </p>
+                                <button href="#" class="btn btn-primary">Comprar</button>
+                                <a href="#" alt="Agregar al carrito"><img src="assets/logos/carrito-de-compras2.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--TERMINA SECCION GORRAS-->
+
+    </main>
+
+
+    <!--INICIA FOOTER-->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="containerFooter">
+            <div class="row text-center">
+                <div class="col-12 col-md">
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">¿Quienes somos?</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Mapa del sitio</a>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col pt-4">
+                    <p>Siguenos en nuestras redes sociales</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col pb-1 pt-4">
+                    <a href="#"><i data-toggle="tooltip" data-placement="left" title="Facebook" class="fab fa-facebook-square fa-2x pr-3 pl-3"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Twitter" class="fab fa-twitter-square fa-2x pr-3 pl-3"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Instagram" class="fab fa-instagram fa-2x pr-3 pl-3"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="right" title="Youtube" class="fab fa-youtube fa-2x pr-3 pl-3"></i></a>
+                </div>
+            </div>
+
+            <div class="row text-center pb-2 pt-2">
+                <div class="col">
+                    <img src="assets/logos/latte-art.png">
+                </div>
+            </div>
+            <div class="row text-center pb-2 pt-2">
+                <div class="col">
+                    <p>&copy 2020 - Moderat, México - Reservados a todos los derechos.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FIN DE FOOTER-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_inicio_sesion" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" >
+           
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <img src="assets/logos/avatar.png" class="pb-1">
+                    <!--<h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesion</h5>-->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+        
+                    <form>
+                        <div class="form-row">
+                            <div id="user" class="form-group col-12 col-12 pb-1 pt-1">
+                                <input type="text" class="form-control" placeholder="Usuario" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div id="contra" class="form-group col-12 pb-1 pt-1">
+                                <input type="password" class="form-control" placeholder="Contraseña" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fas fa-sign-in-alt"></i> Inisiar Sesion</button>
+                    <!--<button type="button" class="btn btn-secondary">Registrarme</button>-->
+                    <br>
+                    <div class="forgot">
+                       
+                        <a href="#">Recordar Contraseña</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        < script >
+            $(document).ready(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+    </script>
+
+</body></html>
